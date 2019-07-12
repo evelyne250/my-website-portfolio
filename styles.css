@@ -6,7 +6,7 @@
 }
 @media screen and (min-width: 768px) {
   body {
-    background-color: rgb(85, 119, 18);
+    background-color: rgb(163, 168, 153);
   }
 }
 body {
@@ -43,4 +43,10 @@ nav>ul{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: beige;
   color: rgba(0, 35, 122, 0.7);
+  }
+  img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
   }
