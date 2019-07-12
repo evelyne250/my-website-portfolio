@@ -50,3 +50,12 @@ nav>ul{
     float: left;
     width: 180px;
   }
+  
+    footer {
+        background-color: grey;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10%;
+  
+  }
