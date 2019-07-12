@@ -1,20 +1,20 @@
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
         background-color: black;
-        color: rgb(253, 212, 98);
+        color: rgb(23, 32, 29);
     }
 }
 @media screen and (min-width: 768px) {
   body {
-    background-color: yellowgreen;
+    background-color: rgb(85, 119, 18);
   }
 }
 body {
-    background-color: grey;
+    background-image: grey;
     font-family: 'Work Sans', sans-serif;
 }
 h1{
-    color: burlywood;
+    color: rgb(24, 14, 2);
     text-align: center;
     padding: inherit;
 }
