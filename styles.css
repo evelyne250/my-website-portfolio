@@ -1,20 +1,20 @@
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        background-color: black;
-        color: rgb(23, 32, 29);
-    }
+@media screen and (min-width: 480px) {
+  body {
+      background-color:  rosybrown;
+      color: black;
+  }
 }
 @media screen and (min-width: 768px) {
   body {
-    background-color: rgb(163, 168, 153);
+    background-color:rgb(214, 188, 188);
   }
 }
 body {
-    background-image: grey;
+  background-color:rgba(170, 157, 157, 0.6)
     font-family: 'Work Sans', sans-serif;
 }
 h1{
-    color: rgb(24, 14, 2);
+    color: rgb(39, 3, 25);
     text-align: center;
     padding: inherit;
 }
@@ -24,12 +24,11 @@ nav {
     margin: 0 auto;
     padding: 10px 0;
     margin-right: 0%;
+    list-style: none;
 }
 nav>ul{
     text-align:right;
-  }
-  ul>li{
-    display:inline-block;
+    list-style: none;
   }
   nav>ul>li>a {
   padding: 18px;
@@ -38,11 +37,15 @@ nav>ul{
   text-decoration: none;
   display: block;
   color: black;
+  display: inline-block;
+  transition-delay: 300ms;
+  list-style: none;
   }
   nav>ul>li>a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: beige;
   color: rgba(0, 35, 122, 0.7);
+  list-style: none;
   }
   img {
     margin: 5px;
@@ -50,7 +53,6 @@ nav>ul{
     float: left;
     width: 180px;
   }
-  
     footer {
         background-color: grey;
         color: #fff;
@@ -58,4 +60,15 @@ nav>ul{
         padding: 20px;
         margin-top: 10%;
   
-  }
+  .container{
+font-size: 1.5em;
+width: 100%;
+height: 64%;
+display: grid;
+}
+.content{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  border-radius: 100%;
+ 
