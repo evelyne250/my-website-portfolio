@@ -14,6 +14,9 @@
 {Making this website i used html and css only made use of div, h, p, strong, br, ul, ol, li, a and nav tags, But to make my website look good as it is I used media-queries and some other properties to style it as it is and i added the icons for the viewers to reach out for me easily.}
 ## contact details
 {On my webpage you will find my contacts and pages i'm using for the moment. I encourage you to contact me for further details}
+## The link to my website gh-pages:
+https://evelyne250.github.io/my-website-portfolio/
+
 ### License
 MIT License
 
