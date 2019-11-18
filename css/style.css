@@ -187,7 +187,7 @@ a {
 /* Navbar */
 .site-navbar-wrap {
   background: #f23a2e !important;
-  position: relative;
+  position: fixed;
   z-index: 99;
   width: 100%; }
   .site-navbar-wrap a {
